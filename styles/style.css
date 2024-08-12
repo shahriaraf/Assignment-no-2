@@ -1,0 +1,369 @@
+.inter-uniquifier{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  span{
+      font-family: 'Miama', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 78px;                                     
+  }
+  
+  
+  body{
+      color: white; 
+      background-color: rgba(0, 0, 0, 1);
+  }
+  
+  
+  section{
+      width: 90%;
+      margin: 100px auto;
+  }
+  
+  .btn{
+      background-color: rgba(230, 83, 60, 1) ;
+      padding: 16px 40px 16px 40px;
+      width: 224px;
+      border: none;
+      border-radius: 42px;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 1);
+  }
+  
+  .btn:hover{
+      background-color: rgb(143, 38, 22) ;
+  }
+  
+  .download{
+      background-color: black ;
+      padding: 16px 40px 16px 40px;
+      width: 224px;
+      border-radius: 42px;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 1);
+  }
+  
+  .download:hover{
+      background-color: rgb(101, 100, 100);
+  }
+  
+  .color1{
+      color: rgba(230, 83, 60, 1);
+  }
+  
+  .color2{
+      color: rgba(255, 255, 255, 0.5);
+  }
+  
+  
+      
+  /* Header styles */
+  
+  .navi{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+  }
+  
+  .fit{
+      font-weight: 800;
+      font-size: 36px;
+  }
+  
+  .bar{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 47px;
+      border: 1px solid rgba(230, 83, 60, 1);
+      border-radius: 39px;
+      padding: 5px;
+  }
+  
+  .home{
+      background-color: rgba(230, 83, 60, 1) ;
+      border: none;
+      border-radius: 39px;
+      padding: 5px 10px;
+  }
+  
+  .banner{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+  }
+  
+  .banner-para{
+      font-size: 16px;
+      font-weight: 400;
+      width: 50%;
+      margin-top: 0;
+  }
+  
+  .banner-img{
+      width: 349px;
+      height: 580px;
+  }
+  
+  .banner-title{
+      width: 50%;
+      font-size: 78px;
+      font-weight: 900px;
+  }
+  
+  /* .card1{
+      margin-left: -400px;
+      margin-top: -400px;
+  
+  }
+  
+  .card2{
+      margin: -400px;
+  
+  } */
+  
+  /* Main styles */
+  
+  
+  
+  /* Change your habit */
+  
+  .cng{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .cng-title{
+      font-weight: 900;
+      font-size: 48px;
+  }
+  
+  .cng-para{
+      font-weight: 400;
+      font-size: 14px;
+  }
+  
+  .four-img{
+      display: flex;
+      width: 80%;
+      margin: 50px auto;
+  }
+  
+  .p{
+      font-weight: 400;
+      font-size: 14px;
+  }
+  
+  .pt{
+      font-weight: 600;
+      font-size: 18px;
+  }
+  .four-img > div{
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .habit{
+      width: 100%;
+      margin:0 auto ;
+  }
+  
+  #a{
+      border: none;
+      border-radius: 50%;
+  
+  
+  
+  /* Run an extra mile easily */
+  
+  }
+  
+  .run{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+  }
+  
+  .p2{
+      font-weight: 900px;
+      font-size: 48px;
+      width: 50%;
+  }
+  
+  .p3{
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: -30px;
+      margin-bottom: 40px;
+      width: 90%;
+  }
+  
+  #b{
+      width: 100%;
+      border-radius: 10px;
+  }
+  
+  
+  
+  
+  .six-img{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+  }
+  
+  .c{
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 15px;
+  }
+  
+  .meet-para{
+      text-align: center;
+  }
+  
+  .team{
+      width: 90%;
+      margin: 0 auto;
+  }
+  
+  /* Bmi Calculator */
+  
+  
+  table{
+      border-collapse: collapse;
+  }
+  
+  td,th{
+      border: 1px solid rgba(230, 83, 60, 1);
+      padding: 10px 30px 10px 10px;
+  }
+  .bmi{
+      display: flex;
+      justify-content: space-evenly;
+      background-color: rgba(34, 34, 34, 1);
+  }
+  
+  .p4{
+      font-weight: 900;
+      font-size: 48px;
+      text-align: center;
+  }
+  
+  .p5{
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-top: -30px;
+      margin-bottom: 70px;
+  }
+  
+  caption{
+      font-weight: 900;
+      font-size: 28px;
+      margin: 30px 0 30px 0;
+  }
+  
+  .p6{
+      font-weight: 900;
+      font-size: 28px;
+  }
+  
+  .p7{
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: -10px;
+      margin-bottom: 30px;
+  }
+  
+  thead, tbody{
+      width: 310px;
+      margin-top: 138px;
+      margin-bottom: 189px;
+  }
+  
+  .select{
+      margin-bottom: 20px;
+  }
+  
+  .bmi-cal > div > input, select{
+      color: white;
+      background-color: black;
+      margin: 10px 10px 10px 0px;
+      padding: 5px;
+  }
+  
+  
+  
+  /* Footer styles */
+  
+  footer{
+      margin-top: 100px;
+  }
+  
+  .info{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .get-start{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 100px;
+  }
+  
+  #f {
+      display: grid;
+      gap: 30px;
+  }
+  
+  hr{
+      width: 60%;
+      margin: 0 auto;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 576px) {
+  
+      .four-img{
+          flex-direction: column;
+      }
+      .run{
+          flex-direction: column;
+      }
+      .p2{
+          width: 100%;
+          font-size: 40px;
+      }
+      .join{
+          margin-top: -20px;
+          margin-bottom: 30px;
+      }
+      .cng-title{
+          font-size: 35px;
+      }
+      section{
+          margin: 50px auto;
+      }
+  
+      
+  }
