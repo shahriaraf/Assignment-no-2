@@ -96,6 +96,10 @@
       padding: 5px 10px;
   }
   
+  .about{
+    padding: 5px 10px ;
+  }
+
   .banner{
       display: flex;
       width: 80%;
@@ -319,13 +323,6 @@
       font-size: 28px;
   }
   
-  .p7{
-      font-weight: 400;
-      font-size: 14px;
-      margin-top: -10px;
-      margin-bottom: 30px;
-  }
-  
   thead, tbody{
       width: 310px;
       margin-top: 138px;
@@ -467,6 +464,21 @@
       section{
           margin: 50px auto;
       }
+      .bmi{
+        flex-direction: column;
+      }
+      .six-img{
+        grid-template-columns: repeat(1,1fr);
+      }
+      .info{
+        flex-direction: column;
+      }
+      .p9,.p3,.p5,.p8{
+        width: 100%;
+      }
+    .bar{
+        display: hidden;
+    }
   
       
   }
