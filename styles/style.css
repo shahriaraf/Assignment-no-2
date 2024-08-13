@@ -71,7 +71,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
   }
   
@@ -99,14 +99,14 @@
   
   .banner{
       display: flex;
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
   }
   
   .banner-para{
       font-size: 16px;
       font-weight: 400;
-      width: 50%;
+      width: 60%;
       margin-top: 0;
   }
   
@@ -116,7 +116,7 @@
   }
   
   .banner-title{
-      width: 50%;
+      width: 60%;
       font-size: 78px;
       font-weight: 900px;
   }
@@ -218,40 +218,25 @@
   }
   
   
-  
-  
-  .six-img{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 15px;
-  }
-  
-  .c{
-      width: 100%;
-      height: 100%;
-      border: none;
-      border-radius: 15px;
-  }
-  
-  .meet-para{
-      text-align: center;
-  }
-  
-  .team{
-      width: 90%;
-      margin: 0 auto;
-  }
-  
   /* Bmi Calculator */
   
+
+  #btn{
+    margin-bottom: 30px;
+  }
   
   table{
       border-collapse: collapse;
   }
+
   
   td,th{
       border: 1px solid rgba(230, 83, 60, 1);
       padding: 10px 30px 10px 10px;
+  }
+
+  td{
+     color:  rgba(255, 255, 255, 0.5) ;
   }
   .bmi{
       display: flex;
@@ -308,16 +293,75 @@
       background-color: black;
       margin: 10px 10px 10px 0px;
       padding: 5px;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 12px 40px 12px 20px;
   }
-  
-  
+
+  .activity{
+     width: 100%;
+  }
+
+  .sex{
+     width: 50%;
+  }
+
+
+
+  /* Meet our team */
+
+  .six-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.c{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+.meet-para{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.p8{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin: -30px auto 30px auto;
+}
+
+.team{
+    width: 90%;
+    margin: 0 auto;
+}
   
   /* Footer styles */
   
   footer{
       margin-top: 100px;
+      width: 80%;
+      margin: 0 auto;
   }
   
+  .fit{
+     font-style: italic;
+     font-weight: 800;
+     font-size: 70px;
+  }
+
+  .p9{
+     width: 50%;
+  }
+
   .info{
       display: flex;
       justify-content: space-around;
