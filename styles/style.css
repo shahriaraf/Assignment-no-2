@@ -61,6 +61,10 @@
   .color2{
       color: rgba(255, 255, 255, 0.5);
   }
+
+  .border{
+    border: 2px solid red;
+  }
   
   
       
@@ -419,7 +423,7 @@
   }
 
   #q{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer1.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -432,7 +436,7 @@
   }
 
   #b{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer2.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -445,7 +449,7 @@
   }
 
   #c{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer3.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -458,7 +462,7 @@
   }
 
   #d{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer4.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -471,7 +475,7 @@
   }
 
   #e{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer5.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -484,7 +488,7 @@
   }
 
   #f{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer6.png);
+    background-image: url("../B10A2-versatile-ui-main/images/trainer6.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -617,7 +621,7 @@
     }
     .card2{
         top: 1100px;
-        left: 40px;
+        left: 50px;
         width: 150px;
     }
     .banner{
@@ -681,6 +685,9 @@
     }
     .make-diet{
         width: 80%;
+    }
+    .footer{
+        width: inherit;
     }
       
   }
