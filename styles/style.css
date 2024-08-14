@@ -96,6 +96,10 @@
       padding: 5px 10px;
   }
   
+  .icon{
+     display: none;
+  }
+
   .about{
     padding: 5px 10px ;
   }
@@ -264,7 +268,7 @@
       width: 90%;
   }
   
-  #b{
+  #B{
       width: 100%;
       border-radius: 10px;
   }
@@ -293,8 +297,13 @@
   .bmi{
       display: flex;
       justify-content: space-evenly;
-      background-color: rgba(34, 34, 34, 1);
   }
+
+#sec-bmi{
+    background-color: rgba(34, 34, 34, 1);
+    width: 100%;
+    margin: 0 auto;
+}
   
   .p4{
       font-weight: 900;
@@ -331,6 +340,7 @@
   
   .select{
       margin-bottom: 20px;
+      width: 100%;
   }
   
   .bmi-cal > div > input, select{
@@ -346,11 +356,18 @@
 
   .activity{
      width: 100%;
+     color:  rgba(255, 255, 255, 0.5);
+
   }
 
   .sex{
      width: 50%;
+     color:  rgba(255, 255, 255, 0.5);
   }
+
+.hieght,.weight,.age,.sex{
+    width: 30% ;
+}
 
 
 
@@ -360,14 +377,86 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-}
+  }
 
-.c{
+  #q{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 15px;
-}
+    height: 400px;
+    border-radius: 8px;
+    color:blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #b{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #c{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #d{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #e{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #f{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
 
 .meet-para{
     text-align: center;
@@ -420,7 +509,7 @@
       gap: 100px;
   }
   
-  #f {
+  #fu {
       display: grid;
       gap: 30px;
   }
@@ -473,12 +562,66 @@
       .info{
         flex-direction: column;
       }
-      .p9,.p3,.p5,.p8{
+      .p9,.p3,.p5,.p8,.banner-para{
         width: 100%;
       }
     .bar{
-        display: hidden;
+        display: none;
     }
-  
+    .icon{
+        display: inline;
+    }
+    .card1{
+        top: 810px;
+        left: 140px;
+    }
+    .card2{
+        top: 1100px;
+        left: 40px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .margin{
+        margin-bottom: 20px;
+    }
+    .banner-para{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .get-start{
+        gap: 50px;
+    }
+    #sec-bmi{
+        width: 90%;
+        margin: 0 auto;
+    }
+    section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-img{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .p9{
+        margin-bottom: 40px;
+    }
+    .fit2{
+        margin-top: 30px;
+        font-size: 50px ;
+    }
+    .div1,.div2{
+        font-size: 20px;
+    }
+    .meet-para{
+        font-size: 30px;
+    }
       
   }
