@@ -613,10 +613,12 @@
     .card1{
         top: 810px;
         left: 140px;
+        width: 150px;
     }
     .card2{
         top: 1100px;
         left: 40px;
+        width: 150px;
     }
     .banner{
         flex-direction: column;
