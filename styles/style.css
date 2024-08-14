@@ -272,7 +272,46 @@
       width: 100%;
       border-radius: 10px;
   }
+
+
+  /* Unique Section */
+
+  .food1{
+    width: 300px;
+    height: auto;
+    margin:  50px 100px 50px 40px;
+    border-radius: 10px;
+  }
+
+  .food2{
+    width: 300px;
+    height: auto;
+    margin: 50px 100px 50px 40px;
+    border-radius: 10px;
+  }
   
+  #food1,#food2{
+    display: flex;
+    border: 1px solid rgba(230, 83, 60, 1) ;
+    border-radius: 10px;
+  }
+  
+  .diet{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  #measure,#nutrition{
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .measure,.nutrition{
+    font-weight: 400;
+    font-size: 25px;
+  }
+
   
   /* Bmi Calculator */
   
@@ -603,7 +642,7 @@
         margin: 0 auto;
     }
     section{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
     .banner-img{
@@ -622,6 +661,24 @@
     }
     .meet-para{
         font-size: 30px;
+    }
+    #food1,#food2{
+        flex-direction: column;
+        border: none;
+    }
+    .food1,.food2{
+        width: 200px;
+        height: auto;
+    }
+    .diet{
+        margin-top: 20px;
+        font-size: 34px;
+    }
+    .measure,.nutrition{
+        font-size: 14px;
+    }
+    .make-diet{
+        width: 80%;
     }
       
   }
